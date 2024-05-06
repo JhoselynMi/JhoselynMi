@@ -1,0 +1,133 @@
+/* Barra de navegacion */
+
+.navbar{
+    padding: 2rem;
+    background-color: whitesmoke;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    .sedan-sc-regular {
+        font-family: "Sedan SC", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+.seccion-oscura{
+    color: white;
+    background-color: black;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.seccion-clara{
+    color:black;
+    background-color: white;
+}
+
+/* Sobre mi */
+
+.sobre-mi{
+    height: 500px;
+    padding: 100px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Hobbies */
+
+.Hobbies{
+    padding: 40px 40px 60 px 40px;
+}
+  
+.Hobbies .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Hobbies .rod div{
+    height: 250px;
+    background-color: rosybrown;
+    border: black;
+}
+
+
+.Escucharmusica -titulo {
+    font size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.Hobbies-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* seccion Hero */
+
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-imagen-desarrollador{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color:cornflowerblue;
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}
+
+
+
+
+/* Adaptable (Responsivo) */
+@media screen and (max-width: 767px) {
+    navbar-brand {
+        display: none;
+    }
+}
